@@ -1,0 +1,23 @@
+Here is the code for the robotic arm -ssc32u 
+
+Servo motor
+Pin a------>16
+b---------->19
+c---------->20 
+d---------->15
+e---------->4
+f --------->7
+●	MOTOR C MOVES UP
+●	MOTOR D MOVES FORWARD
+● MOTOR E MAKES THE ARM MOVE DOWN
+●	MOTOR F CATCHES THE WASTE
+●	MOTOR B ROTATES TO TAKE THE WASTE INTO THE CONTAINER
+●	MOTOR F RELEASES THE WASTE INTO THE CONTAINER
+}
+\\valve control
+Digitalwrite (valvepin,HIGH);
+Delay(1000);
+Digitalwrite (valvepin,LOW);
+Delay(1000);
+}
+}
